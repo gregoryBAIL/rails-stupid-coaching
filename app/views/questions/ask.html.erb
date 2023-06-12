@@ -1,0 +1,8 @@
+<h1> Quelle est ta question ? </h1>
+<h3> Ask your coach anything </h3>
+<form action="/answer" method="get">
+  <input type="text" name="question" id ="imputquestion" placeholder="Pose la ici">
+  <input type="submit" class = "btn-lg btn-primary" value= "Ask">
+</form>
+
+<p><%= params[:question] %></p>

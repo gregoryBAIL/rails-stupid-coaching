@@ -13,3 +13,17 @@
  *= require_tree .
  *= require_self
  */
+#imputquestion {
+  border: 4px, solid;
+  height: 80px;
+  width: 500px;
+}
+.reponse {
+  background-color: yellow;
+  font-weight: bold;
+height: 100px;
+width: 400px;
+display : flex;
+align-items: center;
+
+}
